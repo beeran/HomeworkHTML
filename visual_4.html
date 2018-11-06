@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Visualization Dashboard</title>
+
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Real work starts here -->
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                    aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand navbar-title" href="./weather_data.html">Lattitude</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./visual_1.html">Max Temperature</a></li>
+                            <li><a href="./visual_2.html">Humidity</a></li>
+                            <li><a href="./visual_3.html">Cloudiness</a></li>
+                            <li><a href="./visual_4.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./comparison.html">Comparison</a></li>
+                    <li><a href="./data.html">Data</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 summary">
+                <div class="section img-fill">
+                    <h1>Wind Speed</h1>
+                    <hr>
+
+                    <img src="./Resources/assets/images/Fig4.png" class="pull-left img-responsive">
+                    <span>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum." "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 img-fill">
+                <div class="section">
+                    <h1>Visualizations</h1>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="./visual_1.html">
+                                <img src="./Resources/assets/images/Fig1.png">
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="./visual_2.html">
+                                <img src="./Resources/assets/images/Fig2.png">
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="./visual_3.html">
+                                <img src="./Resources/assets/images/Fig3.png">
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="./visual_4.html" class="img-selected">
+                                <img src="./Resources/assets/images/Fig4.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted text-center">Copyright Coding Bootcamp 2017.</p>
+        </div>
+    </footer> -->
+
+    <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+        <div class="container footer">
+            <p class="text-muted text-center">Copyright Coding Bootcamp 2017.</p>
+        </div>
+    </nav>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
